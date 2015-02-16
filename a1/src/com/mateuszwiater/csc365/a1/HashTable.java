@@ -19,7 +19,7 @@ public class HashTable {
         // Set the loadFactor
         LOADFACTOR = 0.75;
         // Set the initialSize
-        INITIALSIZE = 1;
+        INITIALSIZE = 1024;
         // Set the number of elements in the table
         elements = 0;
         // Create the hash array

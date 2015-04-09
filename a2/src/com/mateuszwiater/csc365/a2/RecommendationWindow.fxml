@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="219.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mateuszwiater.csc365.a2.RecommendationController">
+   <children>
+      <Label layoutX="10.0" prefHeight="48.0" prefWidth="200.0" text="Success! Below are the top 3 most similar pages." textAlignment="CENTER" wrapText="true" />
+      <Label layoutX="13.0" layoutY="128.0" text="2. " />
+      <Separator layoutX="10.0" layoutY="47.0" prefWidth="200.0" />
+      <Label layoutX="11.0" layoutY="72.0" text="1.  " />
+      <Label layoutX="13.0" layoutY="182.0" text="3. " />
+      <Hyperlink fx:id="rec1" layoutX="26.0" layoutY="69.0" onAction="#goToRec1" text="Hyperlink" />
+      <Hyperlink fx:id="rec2" layoutX="26.0" layoutY="125.0" onAction="#goToRec2" text="Hyperlink" />
+      <Hyperlink fx:id="rec3" layoutX="26.0" layoutY="179.0" onAction="#goToRec3" text="Hyperlink" />
+      <Label layoutX="14.0" layoutY="202.0" text="Obtianed result in:" />
+      <Label fx:id="timeIndicator" layoutX="13.0" layoutY="219.0" text="Label" />
+   </children>
+</Pane>

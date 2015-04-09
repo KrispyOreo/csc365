@@ -88,6 +88,7 @@ public class Data {
             }
         }
         //Calculate the substring end point
+
         if(title.length() > 30) {
             recommendation = new Recommendation(title.substring(0,30) + "...", similarity, rurl);
         } else {
